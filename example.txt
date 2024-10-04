@@ -1,6 +1,6 @@
 # Example
 
-What is great about Prolog and ChatGPT? The agileness what you can do with Prolog and context/1 terms!
+What is great about Prolog and ChatGPT? The agileness of what you can do with Prolog and context/1 terms!
 
 ```
 tell('chat.txt'),
