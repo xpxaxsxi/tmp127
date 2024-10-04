@@ -1,0 +1,106 @@
+# Example
+
+What is great about Prolog and ChatGPT? The agileness what you can do with Prolog and context/1 terms!
+
+```
+tell('chat.txt'),
+findall(D,(
+   context(json(A)),
+   memberchk(role=B,A),
+      with_output_to(
+          atom(D),
+              (write(B),
+               write(': '),
+               memberchk(content=C,A),
+               write(C)))),
+List),
+reverse(List,List2), !,
+forall(
+    member(E,List2),
+   (writeln(E),nl)),
+told.
+```
+user: Art mindset motivated provocation against nobody, this is a bit edgy, what would be a better phrase
+
+assistant: "Artistic expression driven by introspection, challenging conventions without targeting anyone, offers a fresh perspective."
+
+user: What is finnish lause in english?
+
+assistant: The Finnish word "lause" translates to "sentence" in English.
+
+user: I used the engl. phrase to mean finn. lause, so phrase is not a lause
+
+assistant: Ah, I see what you mean. In English, the word "phrase" typically refers to a group of words that work together to convey a particular meaning, but it is not a complete sentence. In Finnish, "lause" specifically means "sentence," which is a complete thought with a subject and a predicate. If you're looking for the Finnish equivalent of the English "phrase," you might use "ilmauksia" or "fraasi," depending on the context.
+
+user: Art mindset motivated provocation against nobody is a bulky sentence, I was thinking artistic provocation, but that lacks something to me?
+
+assistant: If you're looking for a more concise phrase that captures the essence of "art mindset motivated provocation against nobody," you might consider "artistic provocation without antagonism." This keeps the focus on the idea of art-driven provocation while emphasizing that it is not directed against anyone.
+
+user: I like get to know things by provocative poking around and then analyzing what happens
+
+assistant: It sounds like you have an inquisitive and exploratory approach to learning. You might describe this as "curious exploration through provocative inquiry and analysis." This phrase captures your method of engaging with the world by challenging ideas and examining the outcomes.
+
+user: Poking around with a stick, that reminds me of probing around and analyzing results, I think I have a scientific mindset
+
+assistant: It sounds like you have a natural inclination towards exploration and discovery, much like a scientist. You might describe your approach as "scientific curiosity through probing and analysis." This phrase highlights your method of investigating and understanding the world by actively engaging with it and examining the results.
+
+user: Add to that artistiqueness or some better
+
+assistant: You could describe your approach as "artistic scientific curiosity through probing and analysis." This phrase captures both your creative and analytical sides, emphasizing a blend of artistic intuition and scientific inquiry in your exploration of the world.
+
+user: Artists like to poke around and provoke
+
+assistant: Absolutely, many artists thrive on exploration and provocation as a means to challenge norms and inspire new ways of thinking. You might describe this approach as "creative provocation through exploration," which highlights the artist's role in pushing boundaries and encouraging dialogue through their work.
+
+user: Thats a good sentence and a slogan, slogan?  nutshell? Something that punches out of text
+
+assistant: Certainly! For a punchy slogan that captures the essence of artistic exploration and provocation, you might use: "Explore. Provoke. Create." This concise phrase emphasizes the dynamic process of artistic engagement and innovation.
+
+user: 'creative provocation through exploration' ... that sentence is a ... what? Strategy
+
+assistant: "Creative provocation through exploration" can be seen as a guiding principle or strategy. It outlines an approach where the act of exploring is used as a means to provoke thought, challenge assumptions, and inspire creativity. This strategy can be applied in various contexts, such as art, design, education, or any field that benefits from innovative thinking and boundary-pushing.
+
+user: Hey I like the creative instead artistic, artistiquness (??) is creativity among other things
+
+assistant: I'm glad you like the use of "creative"! It captures a broader range of activities and approaches beyond just traditional art, encompassing innovation and imaginative thinking in various fields. If you're looking for a term that conveys the essence of "artistiqueness," you might consider "creativity" or "artistic creativity," as these terms encompass the inventive and expressive qualities often associated with artistic endeavors.
+
+user: Is 'art' a name of concept ... artistiqueness ... I notice now ... artist has artistiqueness quality
+
+assistant: Yes, "art" is indeed the name of a broad concept that encompasses various forms of creative expression, including visual arts, music, literature, and more. The term "artistiqueness" isn't commonly used, but it seems to describe the unique qualities or characteristics associated with being an artist, such as creativity, originality, and expressiveness.
+
+If you're looking for a word that captures the essence of what makes someone or something distinctly artistic, you might consider terms like "artistry," "creativity," or "artistic flair." These words convey the special qualities that artists bring to their work and the creative process.
+
+user: Yes! Essence! Artistry I like that
+
+assistant: Great! "Artistry" is a wonderful term that captures the essence of creative skill and expression. It conveys the unique blend of creativity, technique, and personal style that artists bring to their work. Whether in visual arts, music, writing, or any other creative field, artistry highlights the distinctive qualities that make artistic endeavors impactful and memorable.
+
+user: There are less and less qualities that differentiate humans from animals, I think art is a one solid pillar of humanity not found among animals. I fear that you give me punchy counter-argument
+
+assistant: It's true that art is often considered a defining characteristic of human culture, reflecting our capacity for abstract thought, creativity, and expression. However, some might argue that animals also exhibit behaviors that could be seen as artistic or creative. For example, certain birds create intricate nests or perform elaborate mating dances, and elephants and primates have been observed engaging in painting activities when given the tools.
+
+While these behaviors might not align with human definitions of art, they do suggest that creativity and expression are not entirely absent in the animal kingdom. The distinction often lies in the intent and complexity behind human art, which can convey deep emotions, concepts, and cultural narratives.
+
+Ultimately, while art is a significant aspect of human identity, it's also fascinating to consider how elements of creativity and expression manifest across different species. This perspective can enrich our understanding of both art and the natural world.
+
+user: Hmm ... well they are not provoking society!
+
+assistant: That's a great point. Human art often serves as a medium for social commentary, challenging norms, and provoking thought and discussion within society. This intentional use of art to question, critique, and inspire change is a distinctly human endeavor. While animals may exhibit creative behaviors, they do not engage in art with the purpose of influencing or reflecting on societal issues. This ability to use art as a tool for social provocation and dialogue is indeed a unique and powerful aspect of human culture.
+
+user: Wow we did found an distinctly human endeavor, provoking by creativity
+
+assistant: Absolutely! The ability to provoke thought, challenge societal norms, and inspire change through creative expression is a distinctly human endeavor. This unique aspect of human creativity allows us to reflect on our experiences, question the status quo, and communicate complex ideas and emotions. It's a powerful tool for fostering dialogue, encouraging empathy, and driving cultural and social evolution. Art, in its many forms, serves as a catalyst for innovation and transformation, highlighting the profound impact of creativity on human society.
+
+user: de Bono did theorize and popularize this provoking
+
+assistant: Yes, Edward de Bono is well-known for his work on creative thinking and problem-solving. He introduced concepts like "lateral thinking," which encourages looking at problems from new and unconventional angles. Part of this approach involves using provocation as a tool to disrupt habitual patterns of thought and stimulate innovative ideas.
+
+De Bono's techniques often involve deliberately challenging assumptions and generating unexpected connections, which can lead to breakthroughs in thinking. By encouraging people to think outside the box and embrace provocation, de Bono's work has had a significant impact on how individuals and organizations approach creativity and innovation.
+
+user: Embrace provocation, a good one ... a punch line maybe
+
+assistant: "Embrace Provocation" indeed makes for a strong and impactful punchline. It succinctly captures the idea of welcoming challenges to conventional thinking and using them as a catalyst for creativity and innovation. This phrase encourages openness to new ideas and perspectives, highlighting the value of questioning the status quo to drive progress and transformation.
+
+user: we are tossing around ideas, we are having an brainstorming session :)
+
+assistant: Absolutely! This exchange is very much like a brainstorming session, where ideas are freely shared, explored, and refined. Brainstorming is a powerful way to generate creative solutions and insights by encouraging open dialogue and the free flow of thoughts. It's great to see how concepts evolve and take shape through collaborative discussion. If you have more ideas or topics you'd like to explore, feel free to share!
+
